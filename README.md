@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Music Dimension
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for exploring and experiencing music in a new dimension. Built with React and .NET 7.0.
 
-## Available Scripts
+## 🌟 Live Demo
 
-In the project directory, you can run:
+- Frontend: [https://musicdimension-orcin.vercel.app](https://musicdimension-orcin.vercel.app)
+- Backend API: [https://music-dimension-backend.onrender.com](https://music-dimension-backend.onrender.com)
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User authentication (Register/Login)
+- Interactive 3D music visualization
+- Music streaming integration
+- Playlist management
+- Real-time audio processing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
+- React 18
+- Three.js for 3D visualization
+- Redux Toolkit for state management
+- Framer Motion for animations
+- Styled Components for styling
+- Axios for API calls
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- .NET 7.0
+- JWT Authentication
+- Swagger/OpenAPI
+- Docker containerization
 
-### `npm run build`
+## 📦 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend Setup
+```bash
+# Navigate to frontend directory
+cd music-dimension
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start development server
+npm start
+```
 
-### `npm run eject`
+### Backend Setup
+```bash
+# Navigate to backend directory
+cd backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Restore dependencies
+dotnet restore
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run the application
+dotnet run
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔧 Environment Variables
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend (.env)
+```
+REACT_APP_API_URL=http://localhost:5000/api
+```
 
-## Learn More
+### Backend (appsettings.json)
+```json
+{
+  "Jwt": {
+    "Key": "your-secret-key",
+    "Issuer": "your-issuer"
+  }
+}
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Frontend (Vercel)
+- Connect your GitHub repository to Vercel
+- Set environment variables
+- Deploy automatically with every push
 
-### Code Splitting
+### Backend (Render)
+- Connect your GitHub repository to Render
+- Set environment variables
+- Uses Dockerfile for containerization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 API Documentation
 
-### Analyzing the Bundle Size
+API documentation is available at:
+- Development: `http://localhost:5000`
+- Production: [https://music-dimension-backend.onrender.com](https://music-dimension-backend.onrender.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👥 Authors
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Tanmay** - *Initial work* - [Tanmay1906](https://github.com/Tanmay1906) 
