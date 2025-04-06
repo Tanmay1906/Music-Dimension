@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/music-dimension/static/css/main.5629cc84.css",
+    "main.js": "/music-dimension/static/js/main.233ac062.js",
+    "static/js/453.bb073e6b.chunk.js": "/music-dimension/static/js/453.bb073e6b.chunk.js",
+    "index.html": "/music-dimension/index.html",
+    "main.5629cc84.css.map": "/music-dimension/static/css/main.5629cc84.css.map",
+    "main.233ac062.js.map": "/music-dimension/static/js/main.233ac062.js.map",
+    "453.bb073e6b.chunk.js.map": "/music-dimension/static/js/453.bb073e6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5629cc84.css",
+    "static/js/main.233ac062.js"
+  ]
+}
