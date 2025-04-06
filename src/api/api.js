@@ -1,7 +1,9 @@
 import axios from 'axios';
 
-// Use relative URL instead of absolute URL to work with the proxy
-const API_URL = '/api';
+// Use environment variable for API URL
+const API_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://music-dimension-backend.onrender.com/api'
+  : '/api';
 
 // Create axios instance
 const api = axios.create({
